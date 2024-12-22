@@ -9,6 +9,8 @@ A Finite State Machine (FSM) is a computational model used to design systems tha
 
 Often used for modeling of control logic, protocols, or workflows.
 
+The sample code creates the following flow. The image itself was also created by berry.
+
 ![alt text](images/fsm.jpg)
 
 Key Components of an FSM:
@@ -19,11 +21,10 @@ Key Components of an FSM:
     Transitions: 
         Rules that determine how the system moves from one state to another based on inputs or events. (trStartProcessing..)
 
-
     Initial State: The state where the system begins. (default named as stStartup)
 
 
-## Example
+## Sample-Application
 
 The library for FSM is located in file B03StateMan.be.
 
@@ -48,7 +49,11 @@ The transitions are :
 
 ### Play with the state machine
 
-perform step by step the commands of the file playround.be
+Perform step by step the commands of the file playround.be.
+
+Take a look to the Demo.be file, which shows how the FSM can be configured.
+
+
 
 
 
