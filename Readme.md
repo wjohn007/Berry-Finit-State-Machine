@@ -30,19 +30,28 @@ The library for FSM is located in file B03StateMan.be.
 The file Demo.be prepares everything to build a FMS with the states : stIdle, stProcessing,stFinished
 
 The transitions are : 
+
     - trStartProcessing (stIdle => stProcessing)
     - trProcessFinished (stProcessing => stFinished)
     - trWaitForNextJob  (stFinished => stIdle)
  
 ### Prepare your application
 
-- upload the files autoexec.be,B03StateMan.be and Demo.be
+- upload the files 
+  - autoexec.be
+  - B03StateMan.be
+  - Demo.be
+  
 - restart Tasmota
 - after that the state-machine is loaded and started
 
 
 ### Play with the state machine
 
-perform step by step the commands as in file plaground.be
+perform step by step the commands of the file playround.be
+
+
+
+
 
 
